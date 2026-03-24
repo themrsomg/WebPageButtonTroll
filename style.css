@@ -1,0 +1,39 @@
+/* Reset básico */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', sans-serif;
+    overflow: hidden; 
+}
+
+header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#contador {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+#btnFugitivo {
+    padding: 15px 35px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute; 
+    transition: transform 0.1s ease;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+#btnFugitivo:active {
+    transform: scale(0.95);
+}
